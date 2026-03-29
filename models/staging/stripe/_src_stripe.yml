@@ -4,6 +4,7 @@ sources:
     schema: stripe
     tables:
       - name: payment
+        description: Raw payment data
         config:
           freshness:
             warn_after:
